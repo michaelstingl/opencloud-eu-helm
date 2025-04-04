@@ -8,6 +8,8 @@ Welcome to the **OpenCloud Helm Charts** repository! This repository is intended
 
 This repository is created to **welcome contributions from the community**. It does not contain official charts from OpenCloud GmbH and is **not officially supported by OpenCloud GmbH**. Instead, these charts are maintained by the open-source community.
 
+> **Note:** The current Helm charts are designed for local development and testing purposes only. They lack several features required for production deployments such as resource management, security configurations, and high availability options. See the [Getting Started with macOS](docs/getting-started-macos.md) guide for detailed information.
+
 ## 📦 Installing the Helm Charts
 
 Currently only deployment from the file system is supported:
@@ -83,7 +85,9 @@ $ helm uninstall -n opencloud opencloud
 
 
 
-(please add)
+## 📖 Documentation
+
+- [Getting Started with macOS](docs/getting-started-macos.md) - Instructions for setting up a development environment on macOS
 
 ## 💡 Contributing
 
