@@ -29,14 +29,23 @@ brew install --cask docker
 # Start Docker Desktop, then enable Kubernetes in Preferences > Kubernetes
 ```
 
-### Option 2: minikube
+### Option 2: Rancher Desktop
+
+```bash
+# Install Rancher Desktop
+brew install --cask rancher
+
+# Start Rancher Desktop, then enable Kubernetes in Preferences
+```
+
+### Option 3: minikube
 
 ```bash
 brew install minikube
 minikube start
 ```
 
-### Option 3: k3d
+### Option 4: k3d
 
 ```bash
 brew install k3d
