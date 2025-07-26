@@ -92,6 +92,16 @@ A lightweight single-container deployment for development and testing:
 
 This project is licensed under the **AGPLv3** licence. See the [LICENSE](LICENSE) file for more details.
 
+### Microservices Chart (`charts/opencloud-microservices`)
+
+**Architecture**: Pod-per-service (experimental, not recommended for production)
+- Every single service in its own pod
+- Complex service discovery required
+- Higher resource usage due to pod overhead
+- ⚠️ See [architectural warnings](./charts/opencloud-microservices/README.md#architectural-considerations)
+
+[View Microservices Chart Documentation](./charts/opencloud-microservices/README.md)
+
 ## Community Maintained
 
 This repository is **community-maintained** and **not officially supported by OpenCloud GmbH**. Use at your own risk, and feel free to contribute to improve the project!
